@@ -17,14 +17,10 @@ p {
 }
 
 #menu {
-
-
 	height: 40px;
 	background: #696969;
 
 }
-
-
 
 #textExample {
 	position: relative;
@@ -69,8 +65,6 @@ p {
 	display: inline;
 	top: 15px;
 	margin-left: 50px;
-
-
 }
 
 .name_menu li:hover {
@@ -83,12 +77,27 @@ p {
 }
 
 .content {
+
 	font-size: 20px;
 	text-align: center;
-	height: 799px;
 	line-height: 1.7;
-	background: #F4F7F8;
+	background: lightgray;
+	top:0;
+	left:0;
+	bottom:0;
+	right: 0;
+	margin: 0;
+	padding: 0;
 }
+
+.block, .block_1, .block_2 {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	display: inline-block;
+	background-color: #f15a22;
+}
+
 
 /*beds*/
 hr {
@@ -99,7 +108,7 @@ hr {
 	display: none;
 }
 
-.add_block li{
+.add_block li {
 	margin-top: -50px;
 }
 
@@ -198,16 +207,7 @@ hr {
 	height: 250px;
 }
 
-.block, .block_1, .block_2 {
-	width: 20%;
-	height: 40%;
-	position: relative;
-	margin: 0 auto;
-	margin-top: 12%;
-	margin-left: 1%;
-	display: inline-block;
-	background-color: #f15a22;
-}
+
 
 .block img:hover, .block_1 img:hover, .block_2 img:hover {
 	position: relative;
