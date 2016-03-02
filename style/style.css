@@ -3,83 +3,46 @@
 	padding: 0;
 }
 
-.block-content {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
-.content {
-	width: 100%;
-	height: 100%;
-	min-height: 809px;
-	font-size: 20px;
-	text-align: center;
-	line-height: 1.7;
-	background: lightgray;
-	margin: auto;
-	position: relative;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-.block, .block_1, .block_2 {
-	width: 100%;
-	height: 100%;
-	max-width: 450px;
-	margin: 0 auto;
-	display: inline-block;
-	background-color: #f15a22;
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
-
-.image {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
-.footer {
-	width: 100%;
-	margin: 0 auto;
-	height: 110px;
-	background: #696969;
-}
-
-.link_menu {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-.link_menu:hover {
-	color: #f15a22;
-}
-
-#menu {
-	height: 40px;
-	background: #696969;
-}
-
 .header {
 	height: 180px;
 	background: #FFFFFF;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
 .logo {
+	display: block;
+	background-image: url("../image/logo/furniture-company-logo-fmwjwqbw.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 360px;
+	height: 120px;
+	top: 5px;
+	padding-bottom: 10px;
 	position: relative;
-	width: 260px;
-	height: 90px;
-	top: 30px;
-	margin-bottom: 40px;
 }
 
-.name_menu {
+/*menu*/
+#menu {
+	height: 40px;
+	background: #696969;
+}
+
+.link-menu {
+	width: 100%;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.link-menu:hover {
+	color: #f15a22;
+}
+
+.name-menu {
 	padding-left: 0;
 	display: block;
 	list-style-type: none;
@@ -88,22 +51,95 @@
 	font-size: 12px;
 }
 
-.name_menu li {
+.name-menu li {
 	position: relative;
 	display: inline;
-	top: 10px;
+	top: 12px;
 	padding-left: 1%;
 }
 
-.name_menu li:hover {
+.name-menu li:hover {
 	color: #f15a22;
 }
 
-#link_menu {
+/*block content*/
+.block-content {
+	height: 100%;
+	margin: auto;
 	width: 100%;
 }
 
+.content {
+	background: lightgray;
+	font-size: 20px;
+	height: 100%;
+	line-height: 1.7;
+	min-height: 809px;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
 
+.block,
+.block-1,
+.block-2 {
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	max-width: 550px;
+	height: 400px;
+	width: 100%;
+}
+
+.block {
+	background-image: url("../image/img.jpg/30zPu37v0b8.jpg");
+}
+
+.block-1 {
+	background-image: url("../image/img.jpg/tNFrakiiLRM.jpg");
+}
+
+.block-2 {
+	background-image: url("../image/img.jpg/E_wKMHrY8jM.jpg");
+}
+
+.block-color,
+.block-color-1,
+.block-color-2 {
+	color: white;
+	font-size: 12px;
+	font-family: "BentonSans", Helvetica, Arial, sans-serif;
+	opacity: 0;
+	background: #f15a22;
+	height: 400px;
+	max-width: 550px;
+	width: 100%;
+}
+
+.block-color:hover,
+.block-color-1:hover,
+.block-color-2:hover {
+	opacity: 0.8;
+}
+
+.block-color:after {
+	content: "test-1";
+}
+
+.block-color-1:after {
+	content: "test-2";
+}
+
+.block-color-2:after {
+	content: "test-3";
+}
 
 /*beds*/
 hr {
@@ -177,7 +213,6 @@ hr {
 	margin: 0 auto;
 	background: #F4F7F8;
 	width: 1300px;
-
 }
 
 .product_content a {
@@ -210,11 +245,6 @@ hr {
 .product img {
 	width: 250px;
 	height: 250px;
-}
-
-.block img:hover, .block_1 img:hover, .block_2 img:hover {
-	position: relative;
-	opacity: 0.2;
 }
 
 .details, .details_1, .details_2 {
@@ -252,6 +282,13 @@ button {
 	display: none;
 	position: relative;
 	bottom: 15px;
+}
+
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	height: 110px;
+	background: #696969;
 }
 
 
