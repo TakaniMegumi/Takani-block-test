@@ -1,3 +1,40 @@
-@media (max-width: 900px) {
-	
+@media (max-width: 400px) {
+	.content {
+		height: 100%;
+		min-height: 750px;
+	}
+
+	.block,
+	.block-1,
+	.block-2 {
+		height: 200px;
+		max-width: 300px;
+	}
+
+	.pop-up-top,
+	.pop-up-middle,
+	.pop-up-bottom {
+		height: 200px;
+		max-width: 300px;
+	}
+
+	.pop-up-top-text p,
+	.pop-up-middle-text p,
+	.pop-up-bottom-text p {
+		max-width: 280px;
+		margin-top: 60px;
+	}
+
+	.pop-up-top-text h3,
+	.pop-up-middle-text h3,
+	.pop-up-bottom-text h3 {
+		max-width: 280px;
+	}
+
+	.pop-up-line {
+		max-width: 250px;
+		margin-top: 50px;
+		margin-left: 20px;
+	}
 }
+
