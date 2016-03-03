@@ -93,6 +93,8 @@
 	margin: 0 auto;
 	margin-top: 10%;
 	margin-bottom: 5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	max-width: 550px;
 	height: 400px;
 	width: 100%;
@@ -129,17 +131,21 @@
 	opacity: 0.8;
 }
 
-.block-color:after {
-	content: "test-1";
+.block-color p,
+.block-color-1 p,
+.block-color-2 p {
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	margin-top: 50px;
+	margin-left: 25px;
+	position: absolute;
+	text-align: center;
+
 }
 
-.block-color-1:after {
-	content: "test-2";
-}
 
-.block-color-2:after {
-	content: "test-3";
-}
+
 
 /*beds*/
 hr {
